@@ -15,7 +15,11 @@
     padding: 1rem;
 }
 .__grids{
-    margin: 1rem;
+    margin: 2rem;
+    /* background-color: blueviolet; */
+    /* color: coral; */
+    border-radius: 5px;
     width: 100vw;
-    height: 20vh;
+    height: 100%;
 }
+
