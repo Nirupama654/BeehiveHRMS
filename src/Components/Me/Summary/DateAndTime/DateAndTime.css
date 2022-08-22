@@ -1,0 +1,23 @@
+.__grids-sm {
+    margin: 2rem;
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 20vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.clock-red {
+    color: red;
+    margin: 17px;
+}
+.clock-blue {
+    color: rgb(39, 128, 223);
+    margin: 17px;
+}
+
+.clock_text{
+    color: white;
+    margin: 2px 10px;
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 2px;
+    padding: 0;
+}
+
+.navbar{
+    border: 1px solid rgb(58, 57, 57);
+}
+
+ul{
+    padding: 3px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li{
+    
+    list-style: none;
+    cursor: pointer;
+    padding: 0 3rem;
+    /* margin: 2rem 0; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    background-color: black;
+    color: white;
+}
