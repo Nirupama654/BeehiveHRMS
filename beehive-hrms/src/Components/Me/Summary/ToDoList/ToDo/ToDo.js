@@ -1,12 +1,12 @@
 import Alert from '@mui/material/Alert'
 // import Container from '@material-ui/core/Container';
 import './ToDo.css'
-import Typography from '@material-ui/core/Typography';
+
 import MenuItem from '@material-ui/core/MenuItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ContentPaste from '@mui/icons-material/ContentPaste';
+
 import ListItemText from '@material-ui/core/ListItemText';
-import { Card, Container } from "@mui/material";
+import { Card, Container, Menu, MenuList } from "@mui/material";
 
 
 const ToDo = (props) => {
@@ -24,6 +24,7 @@ const ToDo = (props) => {
     return (
         <Alert severity="info" className='task-bar'>
             <div>
+            <MenuList>
             <MenuItem >
                 {/* <ListItemIcon>
                     <ContentPaste fontSize="small" />
@@ -36,6 +37,7 @@ const ToDo = (props) => {
                 </button>
                 </ListItemIcon>
             </MenuItem>
+            </MenuList>
             </div>
 
         </Alert>

@@ -11,10 +11,10 @@ const Actions = () =>{
 
           <Container spacing={3}>
             <Alert severity="info" icon={<Calender />}>
-              Apply Leave
+              <a href="/">Apply Leave</a>
             </Alert>
             <Alert severity="info" icon={<Calender />}>
-              Regularise Attendance
+              <a href="/">Regularise Attendance</a>
             </Alert>
           </Container>
         </>

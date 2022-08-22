@@ -27,7 +27,7 @@
   .btn{
     background-color: rgb(32, 31, 31);
     color: white;
-    padding: 1rem;
+    padding: 0.7rem;
     border-radius: 5px;
     cursor: pointer;
   }

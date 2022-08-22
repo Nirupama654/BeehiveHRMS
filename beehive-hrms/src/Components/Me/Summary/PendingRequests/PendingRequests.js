@@ -11,13 +11,13 @@ const PendingRequests = () =>{
           </Card>
           <Container>
             <Alert severity="info" icon={<Calender />}>
-              Leave Application
+              <a href="/">Leave Application</a>
             </Alert>
             <Alert severity="warning" icon={<Clock />}>
-              Attendance Application
+              <a href="/">Attendance Application</a>
             </Alert>
             <Alert severity="error" icon={<Calender />}>
-              Leave Cancellation
+              <a href="/">Leave Cancellation</a>
             </Alert>
           </Container>
         </>
